@@ -10,7 +10,9 @@ let actUrl = `${window.location.origin}/act/modeler.html?modelId=`
 if (env.NODE_ENV == 'development') {
 
 } else if (env.NODE_ENV == 'production') {
-
+  baseUrl = 'http://localhost:9999'
+  codeUrl = 'http://localhost:9999/code'
+  actUrl = 'http://localhost:9999/act/modeler.html?modelId='
 } else if (env.NODE_ENV == 'test') {
 
 }

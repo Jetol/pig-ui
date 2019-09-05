@@ -3,10 +3,10 @@
        @keyup.enter.native="handleLogin">
     <div class="login-weaper  animated bounceInDown">
       <div class="login-left">
-        <img class="img"
+        <!-- <img class="img"
              src="/img/logo.png"
              alt="">
-        <p class="title">{{website.infoTitle}}</p>
+        <p class="title">{{website.infoTitle}}</p> -->
         <p>©2019 v2.3.1</p>
       </div>
       <div class="login-border">

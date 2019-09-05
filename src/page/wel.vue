@@ -2,15 +2,15 @@
   <div>
     <basic-container>
       <div class="banner-text">
-        <span>
+        <!-- <span>
           <a href="https://avue.top/#/pay" target="_blank">
             <img src="https://img.shields.io/badge/PigX-升级版-green.svg" alt="Build Status">
           </a>
           <img src="https://img.shields.io/badge/Spring%20Boot-2.1.6.RELEASE-yellowgreen.svg" alt="Downloads">
           <img src="https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR2-blue.svg" alt="Coverage Status">
-        </span>
+        </span> -->
         <br/>
-        <span>
+        <!-- <span>
           <el-collapse v-model="activeNames">
             <el-collapse-item title="PigX 完整的微服务架构" name="1">
               <div>基于Spring Cloud Greenwich.SR2</div>
@@ -30,7 +30,7 @@
               <div><a href="https://pig4cloud.com/#/vip" target="_blank">详细介绍pigx </a></div>
             </el-collapse-item>
           </el-collapse>
-        </span>
+        </span> -->
       </div>
 
     </basic-container>

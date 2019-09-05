@@ -5,9 +5,9 @@
  */
 // const url = 'http://pig-gateway:9999'
 const url = 'http://localhost:9999'
-
 // 基础路径，发布前修改这里,当前配置打包出来的资源都是相对路径
 let publicPath = './'
+// let publicPath = '/myvue/'
 module.exports = {
   publicPath: publicPath,
   lintOnSave: true,
